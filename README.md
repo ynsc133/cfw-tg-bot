@@ -1,12 +1,12 @@
-[فارسی](https://github.com/2ri4eUI/CFW-BOT/blob/main/README-FA.md) 
-[ENGLISH](https://github.com/2ri4eUI/CFW-BOT/blob/main/README.md)
+[فارسی](https://github.com/ynsc133/cfw-tg-bot/blob/main/README-FA.md) 
+[ENGLISH](https://github.com/ynsc133/cfw-tg-bot/blob/main/README.md)
 
-# CFW-BOT V0.04
+# cfw-tg-bot V0.04
 Cloudflare Woker Bot ! No servers needed, just pure Xray link creation, all running smoothly on PythonAnywhere. a Shortcut to internet freedom! ✨"
 
-![image](https://github.com/2ri4eUI/CFW-BOT/assets/139592104/8db90fe5-dd6e-4015-840e-5df58ff5f12e)
+![image](https://github.com/ynsc133/cfw-tg-bot/assets/139592104/8db90fe5-dd6e-4015-840e-5df58ff5f12e)
 
-![image](https://github.com/2ri4eUI/CFW-BOT/assets/139592104/2512c617-b93a-48ac-a6a9-58bdd5fb67c6)
+![image](https://github.com/ynsc133/cfw-tg-bot/assets/139592104/2512c617-b93a-48ac-a6a9-58bdd5fb67c6)
 
 # version 0.02 | What is new ?
 - it can create unique subscription worker link for each user that can use IP-API value
@@ -62,9 +62,9 @@ i will release the final version soon!
 just copy and run and send tokens when it ask for them :
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/2ri4eUI/CFW-BOT/main/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ynsc133/cfw-tg-bot/main/install.sh)"
 ```
-![image](https://github.com/2ri4eUI/CFW-BOT/assets/139592104/36852bd8-1d49-4fed-8c4f-5e028f5ae9c0)
+![image](https://github.com/ynsc133/cfw-tg-bot/assets/139592104/36852bd8-1d49-4fed-8c4f-5e028f5ae9c0)
 
 ## Ubuntu
 if you want to run bot in background on Ubuntu you can use a systemd setup:
@@ -80,12 +80,12 @@ sudo nano /etc/systemd/system/cfwbot.service
 
 ```bash                             
 [Unit]
-Description=CFW-BOT
+Description=cfw-tg-bot
 After=network.target
 
 [Service]
 User=root
-WorkingDirectory=/root/CFW-BOT/
+WorkingDirectory=/root/cfw-tg-bot/
 ExecStart=/usr/bin/python3 cfw.py
 Restart=always
 
@@ -111,12 +111,12 @@ sudo systemctl status cfwbot
 4. in your Dashboard section Select Files and and Click on "Open Bash Console Here"
 5.  Clone this repository:
  ```bash
- git clone https://github.com/2ri4eUI/CFW-BOT.git
+ git clone https://github.com/ynsc133/cfw-tg-bot.git
 ```
 6. Navigate to the project directory:
 
  ```bash
- cd CFW-BOT
+ cd cfw-tg-bot
  ```
 7. Make `requirement.sh` executable:
  ```bash
