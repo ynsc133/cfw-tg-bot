@@ -1,5 +1,6 @@
 23.162.136.169
 47.254.66.75
+telipr.ynsc.gq
 proxyip.fxxk.dedyn.io
 cdn.xn--b6gac.eu.org
 cdn-all.xn--b6gac.eu.org
